@@ -148,6 +148,11 @@ ul.social-in li  i:hover{
 	text-decoration:underline;
 }
 
+.to-main {
+	float: right;
+}
+
+
 /*--
 .top-nav ul li{
 	display: inline-block;
@@ -1962,12 +1967,7 @@ a.cart-an {
   padding: 0.4em 1em;
   font-size: 1em;
 }
-
 }
-.to-main {
-	float: right;
-}
-
 
 
 
