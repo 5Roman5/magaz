@@ -2006,3 +2006,70 @@ a.cart-an {
 	left: 0;
 	color: #ffc222;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .gallery_item{
+    position: relative;
+    max-width: 290px;
+    background-color: #fff;
+}
+.img_slyder{
+	padding-left: 50px;
+}
+.gallery_item img{
+    max-width: 100%;
+    height: auto;
+}
+.gallery_item .text .title{
+    color: #111;
+}
+.gallery_item .text{
+    padding: 20px 0;
+    text-align: center;
+}
+.gallery_item .text p{
+   margin: 20px 0 ; 
+}
+.gallery_item .text a{
+    text-decoration: none;
+    display: inline-block;
+    color: #111;
+    border: 1px solid #111;
+    padding: 10px 20px;
+    -webkit-transition: all  .5s ease;
+    -o-transition: all  .5s ease;
+    transition: all  .5s ease;
+}
+.gallery_item .text a:hover{
+    background-color: orange;
+    border-color: orange;
+    color: #fff;
+}
+@media (max-width: 530px){
+    .gallery_item{
+        max-width: 200px;
+    }
+	.img_slyder{
+		padding-left: 10px;
+	}
+}
